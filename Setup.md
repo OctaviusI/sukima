@@ -11,4 +11,4 @@ This "guide" assumes that you cloned the repository on your machine and that you
 This is assuming that you're using Docker for Desktop Windows.
 1. Follow the steps from the Linux guide.
 2. Curl up into a ball because you're not using a Unix system.
-3. If you want to use your GPU, good luck. Refer to [Docker](https://docs.docker.com/desktop/windows/wsl/#gpu-support) and [NVIDIA's guide](https://docs.nvidia.com/cuda/wsl-user-guide/index.html) to set up CUDA for WSL.
+3. If you want to use your GPU, good luck. Refer to [Docker](https://docs.docker.com/desktop/windows/wsl/#gpu-support) and [NVIDIA's guide](https://docs.nvidia.com/cuda/wsl-user-guide/index.html) to set up CUDA for WSL. If I were you, I'd just skip the pain and use [distilgpt2](https://huggingface.co/distilgpt2) or [gpt-j-random-tinier](https://huggingface.co/hakurei/gpt-j-random-tinier) models for testing.
