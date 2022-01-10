@@ -6,7 +6,9 @@ This "guide" assumes that you cloned the repository on your machine and that you
 **NOTE:** If you have an appropriate NVIDIA GPU that you want to use, run `docker-compose -f docker-compose_nvidia-gpu.yaml up` instead. Remember to [install nvidia-container-runtime](https://docs.docker.com/config/containers/resource_constraints/#gpu) on your host machine.
 
 2. Run `docker-compose run web alembic upgrade head` to create db tables if you're setting up, or to apply migrations if you made any db schema changes.
-
+## Kubernetes
+1. `kubectl apply -f k8s`
+2. TODO
 ## Windows
 This is assuming that you're using Docker for Desktop Windows.
 1. Follow the steps from the Linux guide.
